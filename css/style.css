@@ -81,7 +81,7 @@ body {
 */
 
 	margin: 2rem auto 0 auto;
-	padding: 1rem auto;
+	padding: 1rem 0;
 
 	background-color: #f6f6f6;
 	display: flex;
@@ -167,7 +167,7 @@ a.content__btn{
 	background-blend-mode: lighten;
 	background-position: center center;
 	background-size: cover;
-	height: 50vh;
+	min-height: 30vh;
 	margin-bottom: 2rem;
 	padding: 1rem;
 	box-sizing: border-box;
@@ -237,7 +237,7 @@ a.content__btn{
 
 	.content__copy{
 
-		flex-basis: 60%;
+		flex-basis: 55%;
 		flex-grow: 2;
 
 	}
@@ -260,11 +260,11 @@ a.content__btn{
 
 	.content{
 
-		width: 67vw;
+		width: 100vw;
 		align-items: center;
 
 	}
-
+	
 
 	.content__img{
 
@@ -275,7 +275,7 @@ a.content__btn{
 
 	.content__copy{
 
-		flex-basis: 60%;
+		flex-basis: 55%;
 		flex-grow: 2;
 
 	}
@@ -305,7 +305,24 @@ a.content__btn{
 
 }
 
-@media only screen and (min-width: 1281px){
+@media only screen and (min-width: 1201px){
+
+	.content{
+
+		width: 80vw;
+		align-items: center;
+
+	}
 
 }
 
+@media only screen and (min-width: 1401px){
+
+	.content{
+
+		width: 67vw;
+		align-items: center;
+
+	}
+
+}
