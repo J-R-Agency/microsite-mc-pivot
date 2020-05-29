@@ -75,12 +75,18 @@ body {
 
 
 .content{
-
+/*
 	margin: 2rem -9999rem 0 -9999rem;
 	padding: 1rem 9999rem;
+*/
+
+	margin: 2rem auto 0 auto;
+	padding: 1rem auto;
+
 	background-color: #f6f6f6;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 
 }
 
@@ -243,6 +249,21 @@ a.content__btn{
 /* Small screens */
 
 @media only screen and (min-width: 768px){
+
+	section{
+
+		display: flex;
+		justify-content: center;
+
+
+	}
+
+	.content{
+
+		width: 67vw;
+		align-items: center;
+
+	}
 
 
 	.content__img{
