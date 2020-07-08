@@ -283,14 +283,16 @@ a.content__btn{
 
 	.content__btn{
 
-		width: 9rem;
+		/* width: 9rem; */
+		width: max-content;
 		text-align: left;
 
 	}
 
 	.content__btn--wide{
 
-		width: 15rem;
+		/* width: 15rem; */
+		width: max-content;
 		text-align: left;
 
 	}
