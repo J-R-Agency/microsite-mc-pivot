@@ -104,6 +104,12 @@ body {
 
 }
 
+.content__opener p{
+
+	margin-bottom: 0;
+
+}
+
 .content__img{
 
 	flex-basis: 100%;
