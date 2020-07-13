@@ -304,6 +304,11 @@ a.content__btn{
 
 	}
 
+	.resources .content__copy{
+
+		flex-basis: 58%;
+
+	}
 
 	.content__btn{
 
