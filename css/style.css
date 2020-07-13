@@ -221,6 +221,12 @@ a.content__btn{
 
 .small-print{
 
+	background-color: #0e192e;
+	color: #ffffff;
+
+	margin: 2rem -9999rem 0 -9999rem;
+	padding: 1rem 9999rem;
+
 	opacity: 0.5;
 
 }
