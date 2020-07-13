@@ -224,6 +224,8 @@ a.content__btn{
 	background-color: #0e192e;
 	color: #f5f5f5;
 
+	padding: 1rem;
+
 }
 
 .small-print p{
@@ -234,7 +236,7 @@ a.content__btn{
 
 .small-print a{
 
-	color: #0e192e;
+	color: #42f5f5;
 	text-decoration: none;
 
 }
